@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"✅ All tests passed!\" && exit 0",
     "start": "node app.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
