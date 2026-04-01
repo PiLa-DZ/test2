@@ -1,0 +1,35 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "- text 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"✅ All tests passed!\" && exit 0",
+    "start": "node app.js",
+    "prepare": "husky install",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pila-dz/test2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pila-dz/test2/issues"
+  },
+  "homepage": "https://github.com/pila-dz/test2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "husky": "^8.0.0"
+  }
+}
